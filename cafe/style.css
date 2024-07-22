@@ -1,0 +1,54 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e3e2ff;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 45px;
+    font-style: oblique;
+    color: black;
+}
+
+.bg-image {
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: beige;
+    text-align: center;
+    color: aliceblue;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+
+.navbar{
+    color:#d2b49c;
+}
+.button{
+ color: whitesmoke;
+ width: 400px;
+}
+.button:hover{
+    width: 40px;
+}
+.btn btn-primary{
+    background-color: black
+}
+.col-md-6{
+    width: 700px;
+}
+.card-img-top:hover{
+    width: 420px;
+}

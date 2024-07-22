@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>N E K O</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">N E K O</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="menu.html">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <header
+      class="bg-image"
+      style="
+        background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHbjemIctiyg7c_SFUp7EZ-aa6rNrbm04MSA&s');
+      "
+    >
+      <div class="container">
+        <h1>Welcome to N E K O</h1>
+        <p>Your perfect place for coffee and snacks</p>
+        <a href="menu.html" class="button" style="text-decoration: none"
+          ><p class="hi">Explore Our Menu</p></a
+        >
+      </div>
+    </header>
+    <section id="menu" class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-5">Our Menu</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <img
+                src="https://www.shutterstock.com/image-photo/cappuccino-coffee-beautiful-glass-on-600nw-2017631294.jpg"
+                class="card-img-top"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Coffee</h5>
+                <p class="card-text">
+                  Rich and aromatic coffee brewed to perfection
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT35pVl91I9m5tOUM4zREjI7Pl3vIGBBsbRLw&s"
+                class="card-img-top"
+                alt="Pastry"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Pastries</h5>
+                <p class="card-text">
+                  Freshly baked pastries with a variety of flavors.
+                </p>
+              </div>
+            </div>
+          </div>
+          <br />
+          <br />
+
+          <div class="col-md-4">
+            <div class="card">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjHpQE_f4I9H2TMoaVVdXf4TDlp8kPa7-JfQ&s"
+                class="card-img-top"
+                alt="Sandwich"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Sandwiches</h5>
+                <p class="card-text">
+                  Delicious sandwiches made with fresh ingredients.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="about" class="py-5 bg-light">
+      <div class="container">
+        <h2 class="text-center mb-5">About Us</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <img
+              src="https://kernigkrafts.com/wp-content/uploads/2019/05/cafe-coffee-design-tasty.jpg"
+              class="img-fluid"
+              alt="Cafe Image"
+            />
+            <br />
+            <br />
+          </div>
+          <div class="col-md-6">
+            <p>
+              At N E K O, we are passionate about providing our customers with
+              the finest coffee and delicious snacks. Our cozy atmosphere is
+              perfect for relaxing or catching up with friends.
+            </p>
+            <p>
+              We source our ingredients from local suppliers to ensure freshness
+              and quality in every bite. Come visit us and experience the best
+              cafe experience in town.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-5">Contact Us</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <h5>Address</h5>
+            <p>123 Chitkara, sq1, CO 12345</p>
+            <h5>Email</h5>
+            <p>info@chokos.com</p>
+            <h5>Phone</h5>
+            <p>(123) 456-7890</p>
+          </div>
+          <div class="col-md-6">
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" required />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" required />
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea
+                  class="form-control"
+                  id="message"
+                  rows="3"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">
+                Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
